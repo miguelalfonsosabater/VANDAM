@@ -72,9 +72,22 @@
     background-color: #fff;
     border: none;
     padding: 5px 20px;
+    margin: 5px;
+}
+
+.websitebuttoncode{
+    background-color: #313131;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    margin: 5px;
+
+}
+
+.buttonsModal{
     position: absolute;
     top: 60%;
-    left: 36%;
+    left: 20%;
 }
 
 
@@ -82,6 +95,9 @@
     background-color: #313131;
 }
 
+.websitebuttoncode:hover{
+    background-color: #fff;
+}
 
 .websiteclosebutton{
     font-size: 100px;
@@ -95,3 +111,5 @@
 .websiteclosebutton:hover{
     color: #bb2649;
 }
+
+
