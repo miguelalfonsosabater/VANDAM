@@ -1,0 +1,33 @@
+
+
+.heroSectionContainer{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 745px;
+    background-color: #bb2649;
+    z-index: 999;
+}
+
+
+
+.Lottie-Container{
+    width: 400px;
+    position: absolute;
+    top:100px;    
+}
+
+.shadow{
+    position: absolute;
+    top:450px;
+    left: 34%;
+    z-index: 9999;
+    width: 500px;
+}
+
+.arrowDown{
+    padding-top: 400px;
+    width: 1000px;
+}

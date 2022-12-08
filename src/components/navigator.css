@@ -1,0 +1,29 @@
+
+
+
+.NavigatorContainer{
+    position: fixed;
+    top: 20%;
+    left: 55px;
+    display: flex;
+    flex-flow: column;
+    z-index: 999;
+}
+
+
+.icon{
+    width: 40px;
+    padding: 5px;
+}
+
+
+.icon:hover{
+    background-color: #313131;
+    border-radius: 10px;
+}
+
+
+.line{
+    width: 40px;
+    padding: 5px;
+}

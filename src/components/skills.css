@@ -1,0 +1,74 @@
+.skillsContainer {
+    height: 745px;
+    background-color: #660f23;
+    padding-left: 100px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: auto;
+}
+
+.image {
+    width: 300px;
+    height: auto;   
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 300px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #bb2649;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+.servicesOffer{
+    position:absolute;
+    top: 2260px;
+    right: 0px;
+    font-size: 290px;
+    font-weight: 600;
+    color: #bb2649;
+    z-index: 0;
+
+}
+
+
+.iOffer{
+    position:absolute;
+    top: 2740px;
+    right: 0px;
+    font-size: 300px;
+    font-weight: 600;
+    color: #bb2649;
+}

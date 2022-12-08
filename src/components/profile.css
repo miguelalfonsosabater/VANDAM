@@ -1,0 +1,41 @@
+
+
+
+.ProfileContainer{
+    height: 600px;
+    background-color: #a42140;
+    align-items: left;
+    padding-left: 300px;
+    padding-top: 240px;
+}
+
+
+.typedContainer{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 100;
+}
+
+
+.topMessage{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 10;
+    margin-bottom: -30px;
+
+}
+
+.ProfileName{
+    font-size: 150px;
+    color: #fff;
+    margin-bottom: -20px;
+    font-weight: 600;
+}
+
+
+.ComputerLottie{
+    position: absolute;
+    top: 880px;
+    right: 100px;
+    width: 530px;
+}

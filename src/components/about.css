@@ -1,0 +1,63 @@
+
+
+
+.aboutMeContainer{
+    height: 745px;
+    background-color: #bb2649;
+}
+
+
+
+
+.NavContainer{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    position: absolute;
+    top: 1850px;
+    right: 25%;
+
+}
+
+
+
+.aboutbtn{
+    color: #660f23;
+    border: none;
+    background-color: #bb2649;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+
+.aboutbtn:focus{
+    border-right: #660f23 3px solid;
+}
+
+
+.contentContainer{
+    width: 400px;
+    color: #fff;
+    text-align: justify;
+    position: absolute;
+    top: 1850px;
+    left: 20%;
+}
+
+.Title{
+    font-size: 30px;
+}
+
+
+.expSign{
+    position: absolute;
+    top: -120px;
+    left: 650px;
+    color: #660f23 ;
+    transform: rotate(270deg);
+    font-weight: 600;
+    font-size: 380px;
+}
