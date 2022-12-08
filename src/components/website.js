@@ -1,5 +1,4 @@
 
-import { useState } from 'react'
 
 import Image from 'react-image-webp'
 import('./website.css')
@@ -25,9 +24,18 @@ const WebsiteModal = ({onclickWebsiteViewProps}) => {
                             <div className='Webtext'>
                                 DONICHESION
                             </div>
+
+                            <div className='buttonsModal'>
                             <button className='websitebutton' onClick={ () => window.open('https://donichesion-hmob.vercel.app/', '_blank')}>
                                 VISIT
                             </button>
+
+                            <button className='websitebuttoncode' onClick={ () => window.open('https://github.com/miguelalfonsosabater/donichesion', '_blank')}>
+                                CODE
+                            </button>
+
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -42,9 +50,20 @@ const WebsiteModal = ({onclickWebsiteViewProps}) => {
                             <div className='Webtext'>
                                 SLIDERPUZZLE
                             </div>
+
+                            <div className='buttonsModal'>
+
                             <button className='websitebutton' onClick={ () => window.open('https://puzzlegame-one.vercel.app/', '_blank')}>
                                 VISIT
                             </button>
+
+                            <button className='websitebuttoncode' onClick={ () => window.open('https://github.com/miguelalfonsosabater/puzzlegame', '_blank')}>
+                                CODE
+                            </button>
+
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -60,9 +79,17 @@ const WebsiteModal = ({onclickWebsiteViewProps}) => {
                             <div className='Webtext'>
                                 S.A.V.E.R.
                             </div>
+
+                            <div className='buttonsModal'>
                             <button className='websitebutton' onClick={ () => window.open('https://saver-hag1.vercel.app/', '_blank')}>
                                 VISIT
                             </button>
+
+                            <button className='websitebuttoncode' onClick={ () => window.open('https://github.com/miguelalfonsosabater/saver', '_blank')}>
+                                CODE
+                            </button>
+
+                            </div>
                         </div>
                     </div>
                 </div>
